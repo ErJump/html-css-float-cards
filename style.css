@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* text */
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+main{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+main h1{
+    margin-bottom: 40px;
+    color: #e53170;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.text p{
+    font-size: 24px;
+}
+
+/* cards */
+.cards{
+    margin-top: 40px;
+}
+
+.single-card{
+    max-width: 33%;
+    background-color: black;
+    color: white;
+    float: left;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.single-card::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.single-card img{
+    width: 30%;
+    float: left;
+}
+
+.info{
+    float: left;
+    padding: 5%;
+}
+
+.info a{
+    display: block;
+    text-decoration: none;
+    color: #17ccf2;
+}

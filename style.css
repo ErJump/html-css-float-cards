@@ -53,9 +53,19 @@ main h1{
     float: left;
 }
 
+.cards::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
 .info{
     float: left;
     padding: 5%;
+}
+.info>h3,
+.info>div{
+    margin-bottom: 3px;
 }
 
 .info a{
